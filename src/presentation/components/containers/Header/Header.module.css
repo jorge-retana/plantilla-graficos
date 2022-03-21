@@ -1,0 +1,4 @@
+.container {
+  @apply flex flex-row justify-between items-center;
+  @apply p-10 bg-slate-700 text-white;
+}

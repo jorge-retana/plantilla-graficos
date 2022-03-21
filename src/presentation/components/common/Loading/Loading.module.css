@@ -1,0 +1,20 @@
+@tailwind utilities;
+
+.container {
+  @apply flex items-center justify-center;
+  @apply backdrop-blur-sm bg-opacity-40 bg-slate-900;
+}
+
+.loading {
+  @apply w-full h-full border-4;
+  @apply rounded-full animate-spin;
+  @apply border-white/20 border-t-white;
+}
+
+.fullWidth {
+  @apply absolute top-0 left-0 right-0 bottom-0 p-2;
+
+  .loading {
+    @apply w-20 h-20 border-8;
+  }
+}
