@@ -4,11 +4,12 @@ import fetcher from 'persistence/fetcher'
 
 const authProvider: AuthProvider = {
   login: async (email: string, password: string) => {
-    const response = await fetcher.post(LOGIN, { email, password })
+    /*const response = await fetcher.post(LOGIN, { email, password })
     if (typeof response !== 'object' || !response.token)
       throw new Error('Invalid response')
 
-    return response.token as string
+    return response.token as string*/
+    return "g";
   },
 
   validate: async (token: string) => {

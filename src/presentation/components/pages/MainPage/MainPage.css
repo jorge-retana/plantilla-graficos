@@ -1,0 +1,14 @@
+.svg {
+    margin: 20px;
+    & svg {
+        & rect {
+            fill: orange;
+        }
+  
+        & text {
+            fill: white;
+            font: 10px sans-serif;
+            text-anchor: end;
+        }
+    }
+  }

@@ -12,7 +12,8 @@
     "strict": true,
     "lib": ["esnext", "dom"],
     "typeRoots": ["../../src/types.d.ts", "../../node_modules/@types"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["../../src/**/*"]
 }
