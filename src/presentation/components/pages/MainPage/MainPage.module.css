@@ -1,3 +1,7 @@
 .container {
   @apply flex items-center justify-center p-10;
 }
+.column{
+  float: left;
+  width: 50%;
+}
